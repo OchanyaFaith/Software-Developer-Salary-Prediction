@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-import lightgbm as lgm
+import lightgbm
 
 def load_model():
     with open('lgm_model.pkl', 'rb' ) as file:
